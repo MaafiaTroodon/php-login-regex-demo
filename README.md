@@ -1,9 +1,10 @@
 # Simple PHP Login System
 
-This project is a basic PHP-based login system created for educational purposes as part of the **CSCI 2170** course. It demonstrates form handling, session management, and basic authentication.
+This project is a basic PHP-based login system created for educational purposes as part of the **CSCI 2170** course. It demonstrates form handling, session management, regex validation, and basic authentication.
 
 ## Features
 - **Login Authentication**: Users can log in with a predefined username and password.
+- **Regex Validation**: Input fields (username and password) are validated using regular expressions to ensure proper formatting.
 - **Session Management**: Sessions are used to maintain user login state.
 - **Security Measures**: Includes CSRF protection via session tokens.
 
@@ -18,5 +19,6 @@ This project is a basic PHP-based login system created for educational purposes 
 - **PHP** for backend logic
 - **HTML/CSS** for front-end layout
 - **Sessions** for state management
+- **Regex** for input validation
 
 This project is a simple demonstration and not intended for production use.
